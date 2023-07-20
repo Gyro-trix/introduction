@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+}
+  
+div{
+    
+    background-color: white;
+}
+
+#infobar{
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+ 
+  h1 {
+    color: black;
+    font-size: 400%;
+    font-family: Arial;
+  }
+  h2 {
+    color: black;
+    font-size: 200%;
+    font-family: Arial;
+  }
+  p {
+    text-align: left;
+    color: grey;
+    font-size: 125%;
+    font-family: Arial;
+  }
+  
+  .content {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    max-width: 990px;
+    height: 100%;
+    }
+  
+  .columnL {
+    margin-bottom: 160px;
+    text-align: left;
+    float:left;
+    width: 50%;
+  }
+  .columnR {
+    text-align: right;
+    float:right;
+    width:50%;
+  }
+  
+  .bottom {
+    float: left;
+    width: 100%;
+  }
+ 
+  @media (max-width: 990px) {
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .columnL {
+        width: 100%;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+    .columnR {
+        width: 100%;
+        text-align: center;
+      }
+  }
